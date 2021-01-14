@@ -12,25 +12,25 @@
 
 * The article
 
-    MUHAMMAD SAFDAR, GUIHUA CUI, YOUN JIN KIM, MING RONNIER LUO,
+    M. Safdar, G. Cui, Y.J. Kim, M.R. Luo,
     [Perceptually uniform color space for image signals including high dynamic
     range and wide gamut](https://doi.org/10.1364/OE.25.015131),
 
-  mentions the *Combined Visual Data (COMBVD)*:
-
-  The COMBVD set consists of four different data sets of perceived color distances.
-  Missing:
+  mentions the *Combined Visual Data (COMBVD)*, a data set consisting of four different
+  data sets of perceived color distances. Still missing:
 
   * Leeds [31] (307 pairs of samples)
 
      D.H. Kim and J.H. Nobbs,
-     New weighting functions for the weighted CIELAB colour difference formula,
+     [New weighting functions for the weighted CIELAB colour difference
+     formula](https://www.tib.eu/en/search/id/BLCP%3ACN029462717/New-Weighting-Functions-for-the-Weighted-CIELAB/),
      in Proceedings of the AIC Colour, (AIC, 1997), pp. 446-449.
 
   * BFD [32] (2776 pairs of samples)
 
      M.R. Luo and B. Rigg,
-     Chromaticity-discrimination ellipses for surface colours,
+     [Chromaticity-discrimination ellipses for surface
+     colours](https://doi.org/10.1002/col.5080110107),
      Color Res. Appl. 11(1), 25-42 (1986).
 
 * Data from [Color difference evaluation for wide-color-gamut
