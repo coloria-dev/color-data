@@ -1,41 +1,25 @@
 ## Missing data
 
 * Yue Qiao, Roy S. Berns, Lisa Reniff, Ethan Montag,
-  Visual determination of hue suprathreshold color-difference tolerances.
+  [Visual determination of hue suprathreshold color-difference
+  tolerances.](https://doi.org/10.1002/(SICI)1520-6378(199810)23:5<302::AID-COL6>3.0.CO;2-%23)
   Emailed <berns@cis.rit.edu> (2018-02-12).
 
 * Dong-Ho Kim, Eun Kyoung Cho, Jae Pil Kim,
-  Evaluation of CIELAB-based colour-difference formulae using a new dataset.
+  [Evaluation of CIELAB-based colour-difference formulae using a new
+  dataset](https://doi.org/10.1002/col.1052).
   Emailed <donghokim@korea.com> (2018-02-13).
-
-* D.H. Kim, J.H. Nobbs,
-  New weighting functions for the weighted CIELAB colour-difference formulae.
-  Proc 8th Cong AIC Colour 97, Kyoto 1997;I:446-449.
-  "Leeds dataset".
 
 * The article
 
     MUHAMMAD SAFDAR, GUIHUA CUI, YOUN JIN KIM, MING RONNIER LUO,
-    Perceptually uniform color space for image signals including high dynamic
-    range and wide gamut,
+    [Perceptually uniform color space for image signals including high dynamic
+    range and wide gamut](https://doi.org/10.1364/OE.25.015131),
 
   mentions the *Combined Visual Data (COMBVD)*:
 
-  The COMBVD set consists of four different data sets including
-
-  * RIT-DuPont [29] (312 pairs of samples)
-
-     R. S. Berns, D. H. Alman, L. Reniff, G. D. Snyder, and M. R.
-     Balonon-Rosen,
-     Visual determination of suprathreshold color-difference tolerances using
-     probit analysis,
-     Color Res. Appl. 16(5), 297-316 (1991).
-
-  * Witt [30] (418 pairs of samples)
-
-     K. Witt,
-     Geometric relations between scales of small colour differences,
-     Color Res. Appl. 24(2), 78-92 (1999).
+  The COMBVD set consists of four different data sets of perceived color distances.
+  Missing:
 
   * Leeds [31] (307 pairs of samples)
 
@@ -48,3 +32,10 @@
      M.R. Luo and B. Rigg,
      Chromaticity-discrimination ellipses for surface colours,
      Color Res. Appl. 11(1), 25-42 (1986).
+
+* Data from [Color difference evaluation for wide-color-gamut
+  displays](https://doi.org/10.1364/JOSAA.394132)
+
+* Data from [Brightness, lightness, and specifying color in high-dynamic-range scenes
+  and images](https://doi.org/10.1117/12.872075)
+
