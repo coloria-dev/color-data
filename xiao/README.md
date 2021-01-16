@@ -1,6 +1,5 @@
 Data from
 
-
 [Kaida Xiao, Sophie Wuerger, Chenyang Fu, Dimosthenis Karatzas,
 _Unique Hue Data for Colour Appearance Models. Part I: Loci of Unique Hues and
 Hue Uniformity,_
@@ -25,3 +24,18 @@ colours is important. (2) We test hue uniformity for CIECAM02 in all four
 unique hues and show significant disagreements for all hues, except for unique
 red which seems to be invariant under lightness changes. Our dataset is useful
 to improve the CIECAM02 model as it provides reliable data for benchmarking.
+
+
+### Data description
+
+The data in each file represent an array of dimensions (185, 3, 9, 3), where the
+dimensions are
+
+1. the individual observer index,
+2. the session index
+3. the measurement index
+4. the xyz values.
+
+Dark Room
+luminance: 114.6
+background xy: [0.2897, 0.2977]
