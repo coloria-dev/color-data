@@ -5,16 +5,12 @@ import numpy as np
 import openpyxl
 import yaml
 
-lst = [
-    (0, "unique_red.yaml"),
-    (1, "unique_green.yaml"),
-    (2, "unique_yellow.yaml"),
-    (3, "unique_blue.yaml"),
-]
-
+lst = [(0, "red"), (1, "green"), (2, "yellow"), (3, "blue")]
+averages = {}
 
 wb = openpyxl.load_workbook("xiao.xlsx")
-for index, filename in lst:
+for index, color in lst:
+    filename = f"unique_{color}.yaml"
     # first worksheet
     ws = wb.worksheets[index]
     session1_x = [ws[f"C{k}"].value for k in range(4, 1669)]
@@ -39,5 +35,11 @@ for index, filename in lst:
     data = data.reshape(-1, 9, 3, 3)
     data = np.moveaxis(data, 1, 2)
 
+    averages[color] = np.average(data, axis=(0, 1)).tolist()
+
     with open(filename, "w") as f:
         yaml.dump(data.tolist(), f)
+
+
+with open("averages.yaml", "w") as f:
+    yaml.dump(averages, f)
