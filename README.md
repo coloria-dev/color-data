@@ -19,13 +19,6 @@
   mentions the *Combined Visual Data (COMBVD)*, a data set consisting of four different
   data sets of perceived color distances. Still missing:
 
-  * Leeds [31] (307 pairs of samples)
-
-     D.H. Kim and J.H. Nobbs,
-     [New weighting functions for the weighted CIELAB colour difference
-     formula](https://www.tib.eu/en/search/id/BLCP%3ACN029462717/New-Weighting-Functions-for-the-Weighted-CIELAB/),
-     in Proceedings of the AIC Colour, (AIC, 1997), pp. 446-449.
-
   * BFD [32] (2776 pairs of samples)
 
      M.R. Luo and B. Rigg,
@@ -38,4 +31,3 @@
 
 * Data from [Brightness, lightness, and specifying color in high-dynamic-range scenes
   and images](https://doi.org/10.1117/12.872075)
-
