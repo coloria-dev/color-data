@@ -12,6 +12,3 @@
 
 * Data from [Color difference evaluation for wide-color-gamut
   displays](https://doi.org/10.1364/JOSAA.394132)
-
-* Data from [Brightness, lightness, and specifying color in high-dynamic-range scenes
-  and images](https://doi.org/10.1117/12.872075)
