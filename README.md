@@ -10,22 +10,6 @@
   dataset](https://doi.org/10.1002/col.1052).
   Emailed <donghokim@korea.com> (2018-02-13).
 
-* The article
-
-    M. Safdar, G. Cui, Y.J. Kim, M.R. Luo,
-    [Perceptually uniform color space for image signals including high dynamic
-    range and wide gamut](https://doi.org/10.1364/OE.25.015131),
-
-  mentions the *Combined Visual Data (COMBVD)*, a data set consisting of four different
-  data sets of perceived color distances. Still missing:
-
-  * BFD [32] (2776 pairs of samples)
-
-     M.R. Luo and B. Rigg,
-     [Chromaticity-discrimination ellipses for surface
-     colours](https://doi.org/10.1002/col.5080110107),
-     Color Res. Appl. 11(1), 25-42 (1986).
-
 * Data from [Color difference evaluation for wide-color-gamut
   displays](https://doi.org/10.1364/JOSAA.394132)
 
