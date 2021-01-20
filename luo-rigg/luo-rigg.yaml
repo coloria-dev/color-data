@@ -5,7 +5,8 @@
 # Color Research and Application, Volume 11, Issue 1, Spring 1986, Pages 25-42,
 # <https://doi.org/10.1002/col.5080110107>.
 #
-# Set; x; y; Y; a * 10^4; a/b; theta [deg]; overline{R}; SF
+# Set; x; y; Y; a * 10^4; a/b; theta [deg]; overline{R}
+# The SF (set factor) in the article are the means of the R values
 
 VVVR:
   B : [0.1566, 0.1819,  7.30, 129, 5.84, 70, 2.13]
@@ -96,10 +97,10 @@ CIE:
   BL: [0.2195, 0.2151,  8.94, 161, 6.00,  60, 1.04]
 
 STROCKA:
-   [0.4840, 0.3430, 14.10, 107, 2.33, 4, 1.03]
+  STROCKA: [0.4840, 0.3430, 14.10, 107, 2.33, 4, 1.03]
 
 WITT:
-   [0.2514, 0.3638, 24.30, 63, 1.20, 118, 4.51]
+  WITT: [0.2514, 0.3638, 24.30, 63, 1.20, 118, 4.51]
 
 DF:
   B: [0.2008, 0.2106,  6.31, 149, 6.14, 70 , 1.77]
