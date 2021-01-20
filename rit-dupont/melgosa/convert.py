@@ -1,3 +1,4 @@
+import json
 import openpyxl
 import yaml
 
@@ -19,3 +20,6 @@ pairs = [
 d = {"reference_white": white, "dv": dv, "pairs": pairs}
 with open("rit-dupont.yaml", "w") as f:
     yaml.dump(d, f)
+
+with open("rit-dupont.json", "w") as f:
+    json.dump(d, f, indent=2)

@@ -1,4 +1,5 @@
 import openpyxl
+import json
 import yaml
 
 wb = openpyxl.load_workbook("Leeds.xlsx")
@@ -19,3 +20,6 @@ pairs = [
 d = {"reference_white": white, "dv": dv, "pairs": pairs}
 with open("leeds.yaml", "w") as f:
     yaml.dump(d, f)
+
+with open("leeds.json", "w") as f:
+    json.dump(d, f, indent=2)

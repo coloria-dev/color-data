@@ -1,5 +1,6 @@
 import openpyxl
 import yaml
+import json
 
 wb = openpyxl.load_workbook("BFD-P.xlsx")
 
@@ -19,3 +20,7 @@ pairs = [
 d = {"reference_white": white, "dv": dv, "pairs": pairs}
 with open("bfd-p.yaml", "w") as f:
     yaml.dump(d, f)
+
+
+with open("bfd-p.json", "w") as f:
+    json.dump(d, f, indent=2)

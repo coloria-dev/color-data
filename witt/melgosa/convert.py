@@ -1,6 +1,4 @@
-"""
-Helper tool for converting XLSX data to YAML.
-"""
+import json
 import openpyxl
 import yaml
 
@@ -22,3 +20,6 @@ pairs = [
 d = {"reference_white": white, "dv": dv, "pairs": pairs}
 with open("witt.yaml", "w") as f:
     yaml.dump(d, f)
+
+with open("witt.json", "w") as f:
+    json.dump(d, f, indent=2)
