@@ -25,3 +25,7 @@ tilted in relation to the (x,y)-plane. Three colour-difference formulae do not p
 better global predictions than the local (x,y,Y)-ellipsoid formulae. The results may be
 used for more detailed modeling of colour-difference formulae and for tolerance settings
 at different ranges of colour difference.
+
+### ATTENTION
+The original data for Yellow (first column) is [.3810, .4202, 32.93]. The Y value is
+completely out of place though and appear to be an error. Set it to NaN.
