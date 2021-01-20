@@ -54,6 +54,10 @@ Book of Color!**
   Flash! Here are sRGB values and CIELAB for most of the colors in the real.dat
   file. There are some important notes regarding these data in the spreadsheet.
 
+  ```
+  h     V   C  x       y        Y
+  ```
+
 * `1929.dat`: back to the source
 
   These are only those colors physically appearing in the 1929 Munsell Book of

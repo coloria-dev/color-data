@@ -28,3 +28,41 @@ uniform color scale. Provision of a set of colors with which the maximum
 possible number and variety of uniform color scales can be constructed was the
 goal of the Optical Society Committee on Uniform Color Scales, of which this is
 a report.
+
+
+* `table1.*`
+  ```
+  TABLE I. Observed and computed color differences.
+
+  Pair, Tiles, Observed Scale Difference, Computed Color difference, Error,
+  Ratio of computed lightness difference to total difference
+  ```
+
+* `table2.*`
+  ```
+  TABLE II. Colorimetric specifications of tiles (diffuse) D65 CIE 1964
+  supplementary 100 observer.
+  
+  Tile x y Y g j L
+  ```
+
+* `table3.*`
+  ```
+  TABLE III. Observed and computed lightness differences.
+
+  Pair; Computed lightness difference;
+  Number of observers who picked the lightness in accord with computation
+  ```
+
+* `table4.*`
+  ```
+  TABLE IV. Numbers, N, of lattice points at various distances S=2n from any
+  reference point in the lattice, for indicated combinations of \Delta L,
+  \Delta g, \Delta j.  Lattice points specified by interchanging the indicated
+  increments of \Delta g and \Delta j are included in the numbers given. Rows
+  in which the column headed n is empty are continuations of immediately
+  preceding rows, for the same value of n.
+
+  n; Delta L; Delta g; Delta j; Delta N; \sum_n^n \Delta N; \sum_1^n \Delta N;
+  \sqrt(2S)
+  ```

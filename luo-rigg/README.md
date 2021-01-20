@@ -27,3 +27,7 @@ sizes of the ellipses from the same group of data are in error by a factor of
 two or more. Comparing colour differences for different colours appears to be
 much more difficult than has been previously realised. The problem appears to
 have affected all the major groups of published data.
+
+Data from Table 3.
+
+Set; x; y; Y; a * 10^4; a/b; theta [deg]; overline{R}; SF
