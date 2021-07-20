@@ -72,11 +72,9 @@ Book of Color!**
 From
 
 Final Report of the O.S.A. Subcommittee on the Spacing of the Munsell Colors,
-SIDNEY M. NEWHALL, Bausch & Lomb Optical Company, Rochester, New York, DOROTHY
-NICKERSON, United States Department of Agriculture, Washington, D. C., AND DEANE B.
-JUDD, National Bureau of Standards, Washington, D. C.,
-JOURNAL OF THE OPTICAL SOCIETY OF AMERICA
-VOLUME 33, NUMBER 7 JULY, 1943.
+SIDNEY M. NEWHALL, DOROTHY NICKERSON, DEANE B. JUDD,
+JOURNAL OF THE OPTICAL SOCIETY OF AMERICA,
+VOLUME 33, NUMBER 7, JULY, 1943.
 
 TABLE II. I.C.I. (Y) equivalents (in percent relative to MgO) of the recommended Munsell
 value scale (V) from 0/ to 10/.
