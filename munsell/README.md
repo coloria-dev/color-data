@@ -19,8 +19,7 @@ degree observer.In a sense, all three files represent the same set of data, in
 that all depend on the scaling experiments of the late 1930's.
 
 A report entitled "One Set of Munsell Re-renotations," by Deane B. Judd and
-Dorothy Nickerson was issues by the National Bureau of Standards (now NIST) in
-1967. As the title implies, they proposed an alternative to the original
+Dorothy Nickerson was issues by the National Bureau of Standards (now NIST) in 1967. As the title implies, they proposed an alternative to the original
 renotation scheme. As far as we know, these did not receive much attention, and
 their utility is uncertain. The report and associated data table have been
 scanned. If you use this please let us know! We would be interested in any
@@ -29,7 +28,7 @@ useful application of the report of data.
 **None of these data should be confused with actual measurements from a Munsell
 Book of Color!**
 
-* `all.dat`: real and unreal
+- `all.dat`: real and unreal
 
   These are all the Munsell data, including the extrapolated colors. Note that
   extrapolated colors are in some cases unreal. That is, some lie outsize the
@@ -40,10 +39,10 @@ Book of Color!**
   encompass the real colors, which is required to do the interpolation when near
   the Macadam limits.
 
-* `real.dat`: by the book
+- `real.dat`: by the book
 
   These are real colors only, "real" being those lying inside the Macadam
-  limits.  Specifically, these are those colors listed the original 1943
+  limits. Specifically, these are those colors listed the original 1943
   renotation article (Newhall, Judd, and Nickerson, JOSA, 1943).
 
   This file should be used for a complete mapping between the Munsell system and
@@ -58,14 +57,13 @@ Book of Color!**
   h     V   C  x       y        Y
   ```
 
-* `1929.dat`: back to the source
+- `1929.dat`: back to the source
 
   These are only those colors physically appearing in the 1929 Munsell Book of
   Color. These data might be of useful for those interested in the input colors
   used for the scaling experiments leading to the 1943 renotation. Remember
   though, these are renotation colors of those original patches, not necessarily
   the colors of the input data used in the visual experiment.
-
 
 ## Munsell lightness data
 

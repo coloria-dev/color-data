@@ -7,6 +7,7 @@ Journal of the Optical Society of America, Vol. 64, Issue 12, pp. 1691-1702,
 <https://doi.org/10.1364/JOSA.64.001691>.
 
 #### Abstract
+
 Judgments of relative magnitudes of color differences exhibited by 128 selected
 nearest-neighbor pairs of 59 colored tiles were recorded by 49 to 76 observers,
 all of whom had normal color vision. Scale values that represent the perceived
@@ -29,8 +30,8 @@ possible number and variety of uniform color scales can be constructed was the
 goal of the Optical Society Committee on Uniform Color Scales, of which this is
 a report.
 
+- `table1.*`
 
-* `table1.*`
   ```
   TABLE I. Observed and computed color differences.
 
@@ -38,15 +39,17 @@ a report.
   Ratio of computed lightness difference to total difference
   ```
 
-* `table2.*`
+- `table2.*`
+
   ```
   TABLE II. Colorimetric specifications of tiles (diffuse) D65 CIE 1964
   supplementary 100 observer.
-  
+
   Tile x y Y g j L
   ```
 
-* `table3.*`
+- `table3.*`
+
   ```
   TABLE III. Observed and computed lightness differences.
 
@@ -54,7 +57,8 @@ a report.
   Number of observers who picked the lightness in accord with computation
   ```
 
-* `table4.*`
+- `table4.*`
+
   ```
   TABLE IV. Numbers, N, of lattice points at various distances S=2n from any
   reference point in the lattice, for indicated combinations of \Delta L,

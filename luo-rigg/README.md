@@ -30,4 +30,4 @@ have affected all the major groups of published data.
 
 Data from Table 3.
 
-Set; x; y; Y; a * 10^4; a/b; theta [deg]; overline{R}; SF
+Set; x; y; Y; a \* 10^4; a/b; theta [deg]; overline{R}; SF

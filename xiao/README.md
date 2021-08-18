@@ -25,7 +25,6 @@ unique hues and show significant disagreements for all hues, except for unique
 red which seems to be invariant under lightness changes. Our dataset is useful
 to improve the CIECAM02 model as it provides reliable data for benchmarking.
 
-
 ### Data description
 
 The data in each file represent an array of dimensions (185, 3, 9, 3), where the
