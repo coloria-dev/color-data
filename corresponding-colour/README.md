@@ -5,8 +5,8 @@ Retrieved from
 and
 <https://web.archive.org/web/20031212112125/http://colour.derby.ac.uk:80/colour/info/catweb/table2.html>.
 
-
 ## CORRESPONDING-COLOUR DATA SETS
+
 M. Ronnier Luo and Peter A. Rhodes
 Colour & Imaging Institute
 University of Derby
@@ -14,6 +14,7 @@ Derby
 England
 
 ### INTRODUCTION
+
 A chromatic adaptation transform is capable of predicting corresponding
 colours. Corresponding colours are described by two sets of tristimulus values
 that give rise to the same perceived colour when the two samples are viewed
@@ -45,6 +46,7 @@ acquire this database for further study. This paper gives a brief description
 of each data set and describes the format of the data.
 
 ### EXPERIMENTAL DATA SETS
+
 Fourteen data sets have been accumulated from nine sources [4-11]: the Color
 Science Association of Japan (CSAJ), Helson, Lam and Rigg, LUTCHI, Kuo and Luo,
 Breneman, Braun and Fairchild, and McCann. Each data set includes a number of
@@ -79,6 +81,7 @@ involving 38 phases of viewing conditions. The psychophysical methods used are
 haploscopic matching, memory matching and magnitude estimation.
 
 ### DATA FILE DESCRIPTION
+
 Table II summarises the data file names and number of samples in each
 experimental data set. For each file, the data were arranged in a fixed format.
 In the top row, there are six figures corresponding to the tristimulus values
@@ -89,24 +92,25 @@ the corresponding tristimulus values under the reference and test illuminants
 for each sample.
 
 #### Table I: Summary of the corresponding-colour data sets
+
 Experimental conditions
 
-| Data Set | No. of Phases | No. of Samples | Illuminant Test | Illuminant Ref | Illuminance (lux) | Background (Y%) | Sample Size | Medium | Experimental Method |
-| ----------------- | - | --- | -------- | ------------- | ------- | -- | - | ----------- | ----------- |
-| CSAJ-C            | 1 | 87  | D65      | A             | 1000    | 20 | S | Refl.       | Haploscopic |
-| CSAJ-Hunt         | 4 | 20  | D65      | D65           | 10-3000 | 20 | S | Refl.       | Haploscopic |
-| CSAJ-Stevens      | 4 | 19  | D65      | D65           | 10-3000 | 20 | S | Refl.       | Haploscopic |
-| Helson            | 1 | 59  | D65      | A             | 1000    | 20 | S | Refl.       | Memory      |
-| Lam & Rigg        | 1 | 58  | D65      | A             | 1000    | 20 | L | Refl.       | Memory      |
-| Lutchi (A)        | 1 | 43  | D65      | A             | 1000    | 20 | S | Refl.       | Magnitude   |
-| Lutchi (D50)      | 1 | 44  | D65      | D50           | 1000    | 20 | S | Refl.       | Magnitude   |
-| Lutchi (WF)       | 1 | 41  | D65      | WF            | 1000    | 20 | S | Refl.       | Magnitude   |
-| Kuo & Luo (A)     | 1 | 0   | D65      | A             | 1000    | 20 | L | Refl.       | Magnitude   |
-| Kuo & Luo (TL84)  | 1 | 1   | D65      | TL84          | 1000    | 20 | S | Refl.       | Magnitude   |
-| Breneman-C        | 9 | 107 | D65, D55 | A, P, G       | 50-3870 | 30 | S | Trans.      | Magnitude   |
-| Breneman-L        | 3 | 36  | D55      | D55           | 50-3870 | 30 | S | Trans.      | Haploscopic |
-| Braun & Fairchild | 4 | 66  | D65      | D30, D65, D95 | 129     | 20 | S | Mon., Refl. | Matching    |
-| McCann            | 5 | 85  | D65      | R, Y, G, B    | 14-40   | 30 | S | Refl.       | Haploscopic |
+| Data Set          | No. of Phases | No. of Samples | Illuminant Test | Illuminant Ref | Illuminance (lux) | Background (Y%) | Sample Size | Medium      | Experimental Method |
+| ----------------- | ------------- | -------------- | --------------- | -------------- | ----------------- | --------------- | ----------- | ----------- | ------------------- |
+| CSAJ-C            | 1             | 87             | D65             | A              | 1000              | 20              | S           | Refl.       | Haploscopic         |
+| CSAJ-Hunt         | 4             | 20             | D65             | D65            | 10-3000           | 20              | S           | Refl.       | Haploscopic         |
+| CSAJ-Stevens      | 4             | 19             | D65             | D65            | 10-3000           | 20              | S           | Refl.       | Haploscopic         |
+| Helson            | 1             | 59             | D65             | A              | 1000              | 20              | S           | Refl.       | Memory              |
+| Lam & Rigg        | 1             | 58             | D65             | A              | 1000              | 20              | L           | Refl.       | Memory              |
+| Lutchi (A)        | 1             | 43             | D65             | A              | 1000              | 20              | S           | Refl.       | Magnitude           |
+| Lutchi (D50)      | 1             | 44             | D65             | D50            | 1000              | 20              | S           | Refl.       | Magnitude           |
+| Lutchi (WF)       | 1             | 41             | D65             | WF             | 1000              | 20              | S           | Refl.       | Magnitude           |
+| Kuo & Luo (A)     | 1             | 0              | D65             | A              | 1000              | 20              | L           | Refl.       | Magnitude           |
+| Kuo & Luo (TL84)  | 1             | 1              | D65             | TL84           | 1000              | 20              | S           | Refl.       | Magnitude           |
+| Breneman-C        | 9             | 107            | D65, D55        | A, P, G        | 50-3870           | 30              | S           | Trans.      | Magnitude           |
+| Breneman-L        | 3             | 36             | D55             | D55            | 50-3870           | 30              | S           | Trans.      | Haploscopic         |
+| Braun & Fairchild | 4             | 66             | D65             | D30, D65, D95  | 129               | 20              | S           | Mon., Refl. | Matching            |
+| McCann            | 5             | 85             | D65             | R, Y, G, B     | 14-40             | 30              | S           | Refl.       | Haploscopic         |
 
 #### Table II: The data file names and number of samples in each experimental data set
 
@@ -150,8 +154,8 @@ Experimental conditions
 |                   | 17              | mcan.r.dat     |
 |                   | 17              | mcan.y.dat     |
 
-
 ### SUMMARY
+
 A data library has been established to include fourteen corresponding-colour
 data sets and is available at from http://colour.derby.ac.uk. It is publicly
 available for all interested parties who are doing research in the areas of
@@ -159,6 +163,7 @@ colour appearance and chromatic adaptation. Users are encouraged to report new
 findings to the Chairman of CIE TC 1-52.
 
 ### REFERENCES
+
 1. LUO M.R. and HUNT R.W.G, Testing colour appearance models using
    corresponding-colour and magnitude-estimation data sets, Color Res. Appl. 23
    147-153 (1998).
