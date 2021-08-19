@@ -1,6 +1,7 @@
-import openpyxl
-import numpy as np
 import json
+
+import numpy as np
+import openpyxl
 import yaml
 
 wb = openpyxl.load_workbook("Leeds.xlsx")

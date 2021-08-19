@@ -1,7 +1,8 @@
+import json
+
 import numpy as np
 import openpyxl
 import yaml
-import json
 
 wb = openpyxl.load_workbook("BFD-P.xlsx")
 
