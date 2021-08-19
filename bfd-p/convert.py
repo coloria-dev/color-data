@@ -25,6 +25,7 @@ uniques, idx = np.unique(pairs, return_inverse=True, axis=0)
 idx = idx.reshape((-1, 2))
 
 d = {"reference_white": white, "dv": dv, "pairs": idx.tolist(), "xyz": uniques.tolist()}
+
 with open("bfd-p.yaml", "w") as f:
     yaml.dump(d, f)
 

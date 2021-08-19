@@ -1,3 +1,4 @@
+import numpy as np
 import json
 import openpyxl
 import yaml
@@ -17,7 +18,14 @@ pairs = [
     for k in range(3, 315)
 ]
 
-d = {"reference_white": white, "dv": dv, "pairs": pairs}
+# find duplicates in the pairs
+pairs = np.array(pairs)
+pairs = pairs.reshape(-1, 3)
+uniques, idx = np.unique(pairs, return_inverse=True, axis=0)
+idx = idx.reshape((-1, 2))
+
+d = {"reference_white": white, "dv": dv, "pairs": idx.tolist(), "xyz": uniques.tolist()}
+
 with open("rit-dupont.yaml", "w") as f:
     yaml.dump(d, f)
 
