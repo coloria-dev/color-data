@@ -1,5 +1,7 @@
-import openpyxl
 import json
+
+import numpy as np
+import openpyxl
 import yaml
 
 wb = openpyxl.load_workbook("Leeds.xlsx")
@@ -17,7 +19,14 @@ pairs = [
     for k in range(3, 310)
 ]
 
-d = {"reference_white": white, "dv": dv, "pairs": pairs}
+# find duplicates in the pairs
+pairs = np.array(pairs)
+pairs = pairs.reshape(-1, 3)
+uniques, idx = np.unique(pairs, return_inverse=True, axis=0)
+idx = idx.reshape((-1, 2))
+
+d = {"reference_white": white, "dv": dv, "pairs": idx.tolist(), "xyz": uniques.tolist()}
+
 with open("leeds.yaml", "w") as f:
     yaml.dump(d, f)
 

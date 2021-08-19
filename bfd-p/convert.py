@@ -1,6 +1,8 @@
+import json
+
+import numpy as np
 import openpyxl
 import yaml
-import json
 
 wb = openpyxl.load_workbook("BFD-P.xlsx")
 
@@ -17,10 +19,17 @@ pairs = [
     for k in range(3, 2779)
 ]
 
-d = {"reference_white": white, "dv": dv, "pairs": pairs}
+# find duplicates in the pairs
+pairs = np.array(pairs)
+pairs = pairs.reshape(-1, 3)
+uniques, idx = np.unique(pairs, return_inverse=True, axis=0)
+idx = idx.reshape((-1, 2))
+
+d = {"reference_white": white, "dv": dv, "pairs": idx.tolist(), "xyz": uniques.tolist()}
+
 with open("bfd-p.yaml", "w") as f:
     yaml.dump(d, f)
 
 
 with open("bfd-p.json", "w") as f:
-    json.dump(d, f, indent=2)
+    json.dump(d, f)
