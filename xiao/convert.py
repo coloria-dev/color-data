@@ -4,6 +4,7 @@ Helper tool for converting XLSX data to YAML.
 import numpy as np
 import openpyxl
 import yaml
+import json
 
 lst = [(0, "red"), (1, "green"), (2, "yellow"), (3, "blue")]
 averages = {}
@@ -43,3 +44,6 @@ for index, color in lst:
 
 with open("averages.yaml", "w") as f:
     yaml.dump(averages, f)
+
+with open("averages.json", "w") as f:
+    json.dump(averages, f)
