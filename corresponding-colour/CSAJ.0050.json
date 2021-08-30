@@ -2,7 +2,7 @@
   "dataset": "CSAJ-Hunt",
   "illuminant-test": "D65",
   "illuminant-reference": "D65",
-  "illuminance-lux": "50-3000",
+  "illuminance-lux": 50,
   "background-y%": 20,
   "sample-size": "S",
   "medium": "refl",
