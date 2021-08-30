@@ -1,4 +1,12 @@
 {
+  "dataset": "Braun & Fairchild",
+  "illuminant-test": "D65",
+  "illuminant-reference": "D30,D65,D95",
+  "illuminance-lux": 129,
+  "background-y%": 20,
+  "sample-size": "S",
+  "medium": "mon,refl",
+  "experimental-method": "matching",
   "whitepoint-test-xyz": [95.1, 100.0, 109.12],
   "whitepoint-reference-xyz": [103.12, 100.0, 153.98],
   "test-xyz": [

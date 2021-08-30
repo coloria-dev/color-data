@@ -1,4 +1,12 @@
 {
+  "dataset": "Kuo & Luo (A)",
+  "illuminant-test": "D65",
+  "illuminant-reference": "A",
+  "illuminance-lux": 1000,
+  "background-y%": 20,
+  "sample-size": "L",
+  "medium": "refl",
+  "experimental-method": "magnitude",
   "whitepoint-test-xyz": [94.46, 100.0, 108.62],
   "whitepoint-reference-xyz": [115.19, 100.0, 23.75],
   "test-xyz": [

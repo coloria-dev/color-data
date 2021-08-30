@@ -1,4 +1,12 @@
 {
+  "dataset": "McCann",
+  "illuminant-test": "D65",
+  "illuminant-reference": "R,Y,G,B",
+  "illuminance-lux": "14-40",
+  "background-y%": 30,
+  "sample-size": "S",
+  "medium": "refl",
+  "experimental-method": "haploscopic",
   "whitepoint-test-xyz": [110.01, 100.0, 68.15],
   "whitepoint-reference-xyz": [137.44, 100.0, 33.86],
   "test-xyz": [

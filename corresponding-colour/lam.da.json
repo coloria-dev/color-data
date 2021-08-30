@@ -1,4 +1,12 @@
 {
+  "dataset": "Lam & Rigg",
+  "illuminant-test": "D65",
+  "illuminant-reference": "TL84",
+  "illuminance-lux": 1000,
+  "background-y%": 20,
+  "sample-size": "L",
+  "medium": "refl",
+  "experimental-method": "memory",
   "whitepoint-test-xyz": [94.81, 100.0, 107.33],
   "whitepoint-reference-xyz": [111.15, 100.0, 35.2],
   "test-xyz": [

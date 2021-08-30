@@ -1,4 +1,12 @@
 {
+  "dataset": "Lutchi (WF)",
+  "illuminant-test": "D65",
+  "illuminant-reference": "WF",
+  "illuminance-lux": 1000,
+  "background-y%": 20,
+  "sample-size": "S",
+  "medium": "refl",
+  "experimental-method": "magnitude",
   "whitepoint-test-xyz": [94.52, 100.0, 114.98],
   "whitepoint-reference-xyz": [102.5, 100.0, 47.93],
   "test-xyz": [

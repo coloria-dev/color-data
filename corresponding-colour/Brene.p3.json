@@ -1,4 +1,12 @@
 {
+  "dataset": "Breneman-C",
+  "illuminant-test": "D65,D55",
+  "illuminant-reference": "A,P,G",
+  "illuminance-lux": "50-3870",
+  "background-y%": 30,
+  "sample-size": "S",
+  "medium": "trans",
+  "experimental-method": "haploscopic",
   "whitepoint-test-xyz": [96.97, 100.0, 95.29],
   "whitepoint-reference-xyz": [96.31, 100.0, 43.71],
   "test-xyz": [

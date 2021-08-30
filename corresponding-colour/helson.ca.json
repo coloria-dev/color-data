@@ -1,4 +1,12 @@
 {
+  "dataset": "Helson",
+  "illuminant-test": "D65",
+  "illuminant-reference": "A",
+  "illuminance-lux": 1000,
+  "background-y%": 20,
+  "sample-size": "S",
+  "medium": "refl",
+  "experimental-method": "memory",
   "whitepoint-test-xyz": [97.28, 100.0, 116.14],
   "whitepoint-reference-xyz": [111.15, 100.0, 35.2],
   "test-xyz": [

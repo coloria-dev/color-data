@@ -1,4 +1,12 @@
 {
+  "dataset": "CSAJ-Hunt",
+  "illuminant-test": "D65",
+  "illuminant-reference": "D65",
+  "illuminance-lux": "50-3000",
+  "background-y%": 20,
+  "sample-size": "S",
+  "medium": "refl",
+  "experimental-method": "haploscopic",
   "whitepoint-test-xyz": [95.54, 100.0, 107.67],
   "whitepoint-reference-xyz": [95.54, 100.0, 107.67],
   "test-xyz": [
