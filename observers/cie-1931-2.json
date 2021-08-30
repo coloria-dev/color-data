@@ -1,6 +1,6 @@
 {
   "name": "CIE 1931 2-degree Standard Observer",
-  "num": 461,
+  "num": 471,
   "lambda": [3.6e-7, 8.3e-7],
   "xyz": [
     [
