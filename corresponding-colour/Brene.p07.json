@@ -2,7 +2,7 @@
   "dataset": "Breneman-L",
   "illuminant-test": "D55",
   "illuminant-reference": "D55",
-  "illuminance-lux": "50-3870",
+  "illuminance-lux": "850-11100",
   "background-y%": 30,
   "sample-size": "S",
   "medium": "trans",

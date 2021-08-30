@@ -1,8 +1,8 @@
 {
   "dataset": "Breneman-C",
-  "illuminant-test": "D65,D55",
-  "illuminant-reference": "A,P,G",
-  "illuminance-lux": "50-3870",
+  "illuminant-test": "D65",
+  "illuminant-reference": "A",
+  "illuminance-lux": 350,
   "background-y%": 30,
   "sample-size": "S",
   "medium": "trans",
