@@ -1,0 +1,22 @@
+{
+  "dataset": "CSAJ-Stevens",
+  "illuminant-test": "D65",
+  "illuminant-reference": "D65",
+  "illuminance-lux": 3000,
+  "background-y%": 20,
+  "sample-size": "S",
+  "medium": "refl",
+  "experimental-method": "haploscopic",
+  "whitepoint-test-xyz": [94.71, 100.0, 111.2],
+  "whitepoint-reference-xyz": [94.71, 100.0, 111.2],
+  "test-xyz": [
+    [61.77, 25.17, 11.18, 3.65],
+    [65.22, 26.58, 11.81, 3.85],
+    [72.52, 29.56, 13.13, 4.28]
+  ],
+  "reference-xyz": [
+    [42.03, 21.48, 9.16, 3.09],
+    [44.38, 22.68, 9.67, 3.26],
+    [49.35, 25.22, 10.75, 3.62]
+  ]
+}
