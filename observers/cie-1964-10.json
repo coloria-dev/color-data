@@ -1,7 +1,6 @@
 {
   "name": "CIE 1964 10-degree Standard Observer",
-  "num": 471,
-  "lambda": [3.6e-7, 8.3e-7],
+  "lambda_nm": [360, 830, 1],
   "xyz": [
     [
       1.222e-7, 1.85138e-7, 2.7883e-7, 4.1747e-7, 6.2133e-7, 9.1927e-7,

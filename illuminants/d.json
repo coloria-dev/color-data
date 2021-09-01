@@ -1,7 +1,7 @@
 {
   "description": "Raw data for computing D-type illuminants",
-  "num": 54,
-  "lambda": [3.0e-7, 8.3e-7],
+  "remark": "5nm data in the standard just linearly interpolated from the 10nm data",
+  "lambda_nm": [300, 830, 10],
   "s": [
     [
       0.04, 6, 29.6, 55.3, 57.3, 61.8, 61.5, 68.8, 63.4, 65.8, 94.8, 104.8,
