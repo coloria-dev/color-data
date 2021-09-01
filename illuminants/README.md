@@ -1,3 +1,7 @@
+Data source:
+
+- https://law.resource.org/pub/us/cfr/ibr/003/cie.15.2004.tables.xls
+
 #### D
 
 These files give the data to construct the D50, D55, D64, and D75 illuminants.
@@ -19,10 +23,3 @@ distributions of illuminants D50, D55, D65, and D75, in Table T.1 is as follows
 
 The standard gives values every 5nm, but every other value is just an interpolation from
 10nm data. No idea why they are listed in the standard.
-
-#### F
-
-The F\* data is from the document
-
-> Standard Practice for Computing the Colors of Objects by Using the CIE System
-> https://www.astm.org/Standards/E308.htm
