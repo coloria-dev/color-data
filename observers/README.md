@@ -2,8 +2,22 @@
 - CIE 1964 10 degrees standard observer.
 
 Sources:
-- <https://www.rit.edu/cos/colorscience/rc_useful_data.php>
+- <https://www.rit.edu/cos/colorscience/rc_useful_data.php> (360-830 nm, 5 nm steps)
+- <https://law.resource.org/pub/us/cfr/ibr/003/cie.15.2004.tables.xls> (380-780 nm, 5 nm
+  steps)
+
+The CIE Technical Report Colorimetry (from where the above data are) says:
+
+> Section 11 provides abridged tables that can be used in many practical calculations.
+> On the use of these tables see Section 7.2. The values of relative spectral power
+> distribution of CIE standard illuminant 065 given in Table T.1 at 5 nm intervals are
+> consistent with the values from 300 nm to 830 nm at 1 nm intervals and with six
+> significant figures given in CIE standard illuminants for colorimetry (CIE, 1998c).
+> They have been taken from the tables of the Standard.
+
+It just so happens that
+
 - <http://cvrl.ioo.ucl.ac.uk/cie.htm>
 
-This repository only gives the 1-nm-data. For the 5-nm data set, simply take every fifth
-value. (That's how the official data is created.)
+provides 1nm data which is in fact consisten with the data in the above XLS files.
+Hence, assume that this is the actual standard data; use it here.
