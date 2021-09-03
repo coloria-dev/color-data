@@ -18,6 +18,7 @@ The CIE Technical Report Colorimetry (from where the above data are) says:
 On
 
 - <http://cvrl.ioo.ucl.ac.uk/cie.htm>
+- <https://www.biblioteca.iqfr.csic.es/images/REPOSITORIO/CIE/ISO_CIE11664-1.pdf>
 
 one can find 1nm data that is consistent with the data in the above XLS files and also
 matches 1nm the checksums. Hence, assume that this is the actual standard data; use it
