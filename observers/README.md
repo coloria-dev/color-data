@@ -15,9 +15,10 @@ The CIE Technical Report Colorimetry (from where the above data are) says:
 > significant figures given in CIE standard illuminants for colorimetry (CIE, 1998c).
 > They have been taken from the tables of the Standard.
 
-It just so happens that
+On
 
 - <http://cvrl.ioo.ucl.ac.uk/cie.htm>
 
-provides 1nm data which is in fact consisten with the data in the above XLS files.
-Hence, assume that this is the actual standard data; use it here.
+one can find 1nm data that is consistent with the data in the above XLS files and also
+matches 1nm the checksums. Hence, assume that this is the actual standard data; use it
+here.
