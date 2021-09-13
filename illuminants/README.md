@@ -1,6 +1,7 @@
-Data source:
+Data sources:
 
 - https://law.resource.org/pub/us/cfr/ibr/003/cie.15.2004.tables.xls
+- https://github.com/colour-science/colour/blob/2c6156405f48934553dacbf8be4ae26b40486992/colour/colorimetry/datasets/illuminants/sds.py
 
 #### D
 

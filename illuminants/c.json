@@ -1,5 +1,5 @@
 {
-  "description": "C illuminant",
+  "description": "Illuminant C (obsolete)",
   "lambda_nm": [300, 780, 5],
   "values": [
     0.0, 0.0, 0.0, 0.0, 0.01, 0.2, 0.4, 1.55, 2.7, 4.85, 7.0, 9.95, 12.9, 17.2,
